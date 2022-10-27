@@ -59,8 +59,8 @@
     border-style: none;
     color: white;
     border-radius: 50px;
-    height:40px;
-    width: 120px;
+    padding: 10px 10px 10px 10px
+
 }
 
 /*+++++++++++ Footer ++++++++++++*/
@@ -94,4 +94,30 @@ i {
     font-size: 33px;
     margin: 10px;
     margin-bottom: 50px;
+}
+
+
+/*------------form------------*/
+
+.formulario {
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Jost', sans-serif;
+    background-color: #FE7F99;
+    color: white;
+}
+
+.rosa {
+    background-color: #ffca41;
+    font-weight: bold;
+    padding: 10px 70px 10px 70px;
+    font-size: 16px;
+    border-radius: 50px;
+    width: 222px;
+   
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
 }
