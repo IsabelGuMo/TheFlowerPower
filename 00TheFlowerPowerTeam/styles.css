@@ -4,6 +4,48 @@
     border:0;
     margin:0;
 }
+/***********HEADER***************/
+.header {
+    display: flex;
+    font-family: Jost;
+    font-size: 50px;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background: #FF7F99;
+}
+
+
+.WeHelp{
+    
+    font-size: 40px;
+    color:white
+}
+
+span{
+    color: #ffca41;
+}
+.title-nav{
+    color:white
+}
+    
+
+.somos{
+    color: white;
+    border: none;
+    background: #FF7F99;
+
+}
+.contactanos {
+    background: #ff9593;
+    border: none;
+    color: white;
+    border-radius: 40px;
+    padding: 10px 40px 10px 40px;
+
+}
+/**********************MAIN********************/
 .principal{
     height: 50%;
     box-sizing: content-box;
@@ -67,7 +109,7 @@
 
 .footer-container {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: repeat(5, 1fr);
     grid-template-rows: 1fr;
     grid-column-gap: 20px;
     grid-row-gap: 20px;
@@ -120,4 +162,35 @@ i {
 .column {
     display: flex;
     flex-direction: column;
+    align-items:center;
 }
+
+.infoTeam{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 10px;
+  }
+  
+  
+  .crewInfo {
+    font-family: 'Jost', sans-serif;
+    font-size: 50px;
+    color: #ff7f99;
+  }
+  
+  .especiality{
+    font-family: 'Jost', sans-serif;
+    font-size: 28px;
+    color: rgb(44, 42, 42);
+    padding-top: 2%;
+    padding-bottom: 2%;
+  }
+  .description{
+    font-family: 'Jost', sans-serif;
+    font-size: 14px;
+    color: rgb(44, 42, 42);
+    padding-top: 2%;
+    padding-bottom: 2%
+  }
