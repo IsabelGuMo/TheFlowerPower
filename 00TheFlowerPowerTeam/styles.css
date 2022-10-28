@@ -170,9 +170,13 @@ i {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    align-items: flex-start;
+    align-items: center;
     margin-left: 10px;
+<<<<<<< HEAD
     
+=======
+    padding: 100px;
+>>>>>>> 95da1dd748f8cc8b174effa5e76234b34395d381
   }
   
   .crewInfo {
@@ -192,5 +196,6 @@ i {
     font-family: 'Jost', sans-serif;
     font-size: 14px;
     color: rgb(44, 42, 42);
-    margin-right: 200px;
+    padding-left: 200px;
+    padding-right: 200px;
   }
