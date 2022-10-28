@@ -171,8 +171,9 @@ i {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    align-items: center;
-    margin-left: 10px;
+    align-items: flex-start;
+    padding-left: 450px;
+    padding-right: 450px;
   }
   
   .crewInfo {
@@ -192,7 +193,9 @@ i {
     font-family: 'Jost', sans-serif;
     font-size: 14px;
     color: rgb(44, 42, 42);
-    padding-left: 450px;
-    padding-right: 450px;
+  }
+
+  .icon-button {
+      display: flex;
   }
 
