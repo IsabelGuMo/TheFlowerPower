@@ -36,7 +36,8 @@ span{
     background: #FF7F99;
 
 }
-.contactanos {
+
+button:hover {
     background: #ff9593;
     border: none;
     color: white;
@@ -46,7 +47,6 @@ span{
 }
 /**********************MAIN********************/
 .principal{
-    height: 70%;
     box-sizing: content-box;
     display: flex;
     flex-direction: row;
