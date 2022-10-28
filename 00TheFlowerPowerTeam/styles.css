@@ -172,8 +172,8 @@ i {
     flex-direction: column;
     justify-content: space-around;
     align-items: flex-start;
-    padding-left: 450px;
-    padding-right: 450px;
+    padding-left: 50px;
+    padding-right: 50px;
   }
   
   .crewInfo {
