@@ -170,11 +170,11 @@ i {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    align-items: center;
+    align-items: flex-start;
     margin-left: 10px;
   }
   
-  
+ /*------------card------------*/ 
   .crewInfo {
     font-family: 'Jost', sans-serif;
     font-size: 50px;
@@ -192,6 +192,5 @@ i {
     font-family: 'Jost', sans-serif;
     font-size: 14px;
     color: rgb(44, 42, 42);
-    padding-top: 2%;
-    padding-bottom: 2%
+    margin-right: 200px;
   }
