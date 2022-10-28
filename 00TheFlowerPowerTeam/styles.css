@@ -169,8 +169,9 @@ i {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    align-items: flex-start;
+    align-items: center;
     margin-left: 10px;
+    padding: 100px;
   }
   
  /*------------card------------*/ 
@@ -191,5 +192,6 @@ i {
     font-family: 'Jost', sans-serif;
     font-size: 14px;
     color: rgb(44, 42, 42);
-    margin-right: 200px;
+    padding-left: 200px;
+    padding-right: 200px;
   }
