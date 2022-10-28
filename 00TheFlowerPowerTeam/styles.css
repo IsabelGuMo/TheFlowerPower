@@ -135,7 +135,7 @@ h2 {
 i {
     font-size: 33px;
     margin: 10px;
-    margin-bottom: 50px;
+    margin-bottom: 10px;
 }
 
 
@@ -164,17 +164,20 @@ i {
     flex-direction: column;
     align-items:center;
 }
-
+/*------------card------------*/ 
 .infoTeam{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
     margin-left: 10px;
+<<<<<<< HEAD
+    
+=======
     padding: 100px;
+>>>>>>> 95da1dd748f8cc8b174effa5e76234b34395d381
   }
   
- /*------------card------------*/ 
   .crewInfo {
     font-family: 'Jost', sans-serif;
     font-size: 50px;
